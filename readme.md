@@ -19,21 +19,37 @@ https://github.com/user-attachments/assets/2d818f90-ab59-47b2-a2f7-7d9fe0b71e34
 
 Installation
 Clone the repository:
-git clone https://github.com/your-username/leetcode-hint-helper.git
+git clone https://github.com/your-username/leetlift.git
 Navigate to the project directory:
-cd leetcode-hint-helper
+cd leetlift
+
 Install dependencies for the server:
+
 npm install
+
 Create a .env file in the root directory and add your API key:
+
 GEMINI_API_KEY=your-api-key-here
+
 Build the Chrome extension:
+
 Ensure the manifest.json and related files are correctly set up.
+
 Place the icon.png file in the root directory.
+
+
 Usage
+
+
 Load the extension:
+
 Go to chrome://extensions/ in your browser.
+
 Enable "Developer mode" in the top-right corner.
+
 Click "Load unpacked" and select the project directory.
+
 Start the server:
+
 node server.mjs
 
